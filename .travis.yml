@@ -6,5 +6,5 @@ before_install:
 - brew update || brew update
 - brew outdated xctool || brew upgrade xctool
 script:
-- xcodebuild -project DPPickerManager.xcodeproj -scheme DPPickerManager -sdk iphonesimulator
+- xcodebuild -project TestingTravis.xcodeproj -scheme TestingTravis -sdk iphonesimulator
 ONLY_ACTIVE_ARCH=NO
